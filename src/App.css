@@ -1,38 +1,106 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.search p {
+  margin: 0;
+}
+
+.search input {
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filter #colors {
+  width: 60px;
+  height: 50px;
+  background-color: white;
+  background-image: url(/public/color.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+.filter #colors .colors {
+  display: none;
+  position: absolute;
+  top: center;
+  right: center;
+  z-index: 1;
+  width: 400px;
+  height: 150px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f4c6b;
+  border: 1px solid white;
+  border-radius: 8px;
+  gap: 0px 12px;
+  cursor: default;
+}
+
+.filter #colors.active .colors {
+  display: flex;
+}
+
+
+.filter #colors .colors input {
+ display: none;
+}
+.filter #colors .colors label {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.472);
+  border-radius: 8px;
+}
+
+
+.filter #colors .colors input:checked+ label {
+  background-color: rgba(26, 255, 0, 0.396);
+}
+
+
+
+#head-table tr th {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#skills tr td:first-child,
+#head-table tr th:first-child {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#skills tr td:nth-child(2),
+#skills tr td:nth-child(5),
+#skills tr td:nth-child(6){
+  text-align: center;
+  width: 90px;
 }
