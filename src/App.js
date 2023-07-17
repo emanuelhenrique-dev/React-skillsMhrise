@@ -1409,7 +1409,7 @@ const skills = [
     link: 'https://game8.co/games/Monster-Hunter-Rise/archives/414966'
   },
   {
-    id: 145,
+    id: 146,
     color: 'white',
     colorBr: 'branco',
     name: 'Inspiration 激励',
