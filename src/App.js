@@ -6,7 +6,7 @@ const skills = [
   {
     id: 0,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Attack Boost 攻撃',
     description: 'Increases attack power.',
     level: '7',
@@ -15,7 +15,7 @@ const skills = [
   {
     id: 1,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Agitator 挑戦者',
     description:
       'Increases attack power and affinity when large monsters become enraged.',
@@ -122,7 +122,7 @@ const skills = [
   {
     id: 12,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Fire Attack 火属性攻撃強化',
     description:
       'Increases fire element attack power. (Elemental attack power has a maximum limit.)',
@@ -639,7 +639,7 @@ const skills = [
   {
     id: 66,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Fire Resistance 火耐性',
     description:
       'Increases fire resistance. Also improves defense at higher levels.',
@@ -868,7 +868,7 @@ const skills = [
   {
     id: 90,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Heroics 火事場力',
     description:
       'Increases attack power and defense when health drops to 35% or lower.',
@@ -961,7 +961,7 @@ const skills = [
   {
     id: 100,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Teostra Blessing 炎鱗の恩恵',
     description: 'Gain the power of the elder dragon Teostra.',
     level: '4',
@@ -998,7 +998,7 @@ const skills = [
   {
     id: 104,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Counterstrike 逆襲',
     description: 'Temporarily increases attack power after being knocked back.',
     level: '3',
@@ -1055,7 +1055,7 @@ const skills = [
   {
     id: 110,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Blood Rite 血氣',
     description:
       'A proportion of damage dealt is converted to health when striking a broken monster part.',
@@ -1065,7 +1065,7 @@ const skills = [
   {
     id: 111,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Dereliction 伏魔響命',
     description:
       'Qurio will drain health, but also bolster your attacks. Multiple Qurio further bolster attacks and let you recover health when performing a Switch Skill Swap.',
@@ -1124,7 +1124,7 @@ const skills = [
   {
     id: 117,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Sneak Attack 闇討ち',
     description:
       'Increases damage to large monsters when attacks hit them from behind.',
@@ -1134,7 +1134,7 @@ const skills = [
   {
     id: 118,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Adrenaline Rush 巧撃',
     description:
       'Perform a perfectly-timed evade just as a monster attacks for a temporary attack boost.',
@@ -1184,7 +1184,7 @@ const skills = [
   {
     id: 123,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Foray 攻勢',
     description:
       'Increases attack power and affinity when attacking a large monster affected by poison, paralysis, or an elemental blight.',
@@ -1242,7 +1242,7 @@ const skills = [
   {
     id: 129,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Burst 連撃',
     description:
       'Continuously landing hits gradually increases attack and elemental attack. (The amount of increase depends on the weapon.)',
@@ -1292,7 +1292,7 @@ const skills = [
   {
     id: 134,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Buildup Boost 蓄積時攻撃強化',
     description:
       'Increases attack power when you land attacks that build poison, paralysis, sleep, blast, or exhaust. (Exhaust - ammo/phials/coatings only)',
@@ -1322,7 +1322,7 @@ const skills = [
   {
     id: 137,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Powder Mantle 粉塵纏',
     description:
       'Continuously attacking a large monster will cause powder to form around you. The color and effects of the powder will change over time.',
@@ -1372,7 +1372,7 @@ const skills = [
   {
     id: 142,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Strife 奮闘',
     description:
       'Increases elemental attack and affinity in proportion to the length of your red health gauge.',
@@ -1401,7 +1401,7 @@ const skills = [
   {
     id: 145,
     color: 'darkorange',
-    colorBr: 'laranjaescuro vermelho',
+    colorBr: 'laranjaescuro vermelho red',
     name: 'Blood Awakening 血氣覚醒',
     description:
       'Gradually bolsters your attacks for a certain period of time, depending on how much health you regain when landing attacks.',
